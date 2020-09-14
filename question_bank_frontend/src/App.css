@@ -1,0 +1,56 @@
+.InsertSection {
+  min-height: 50vh;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.SearchSection {
+  min-height: 50vh;
+  background-color: darkslategray;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: start;
+}
+
+.QueryInput {
+  width: 70vw;
+}
+
+.Divider15px {
+  height: 15px;
+}
+
+.Divider15pxHoz {
+  width: 15px;
+}
+
+.HeadingInsert {
+  font-weight: bold;
+  color: darkslategray;
+}
+
+.HeadingSearch {
+  font-weight: bold;
+  color: wheat;
+}
+
+.HorizontalControls {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-items: center;
+}
+
+
+.ErrorText {
+  color: rgb(255, 71, 71);
+  font-weight: bold;
+}
+
+.result-text {
+  color: aliceblue;
+}
